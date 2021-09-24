@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ body{
+     background-color:#ccc;
+     
+ }
+
+.card{
+    margin: 0 auto;
+    border: 1px solid black;
+    width: 30%;
+    height: auto;
+    background-color: white;
+}
+
+.card-head{
+    padding: 16px;
+    display: flex;
+}
+
+.card-body{
+    padding: 15px;
+}
+
+.question{
+    display: flex;
+    align-items: center;
+}
+
+.card-content{
+    display: flex;
+    padding: 15px;
+}
+
+.card-footer{
+    padding: 15px;
+    
+}
+.p-2{
+    padding: 8px !important;
+}
+.p-3{
+    padding: 16px !important;
+}
+.p-4{
+    padding: 32px !important;
+}
+.px-2{
+    padding: 0px 8px !important;
+}
+.px-3{
+    padding: 0px 16px !important;
+}
+.px-4{
+    padding: 0px 32px !important;
+}
+.py-2{
+    padding: 8px  0px!important;
+}
+.py-3{
+    padding: 16px 0px !important;
+}
+.py-4{
+    padding: 32px 0px !important;
+}
+.pr-2{
+  padding: 0px 8px 0px 0px!important;
+}
+.pr-3{
+  padding: 0px 16px 0px 0px !important;
+}
+.pr-4{
+  padding: 0px 32px 0px 0px !important;
+}
+.pt-2{
+  padding: 8px 0px 0px 0px!important;
+}
+.pt-3{
+  padding: 16px  0px 0px 0px !important;
+}
+.pt-4{
+  padding: 32px  0px 0px 0px !important;
+}
+.pl-2{
+  padding: 0px 0px 0px 8px!important;
+}
+.pl-3{
+  padding: 0px  0px 0px 16px !important;
+}
+.pl-4{
+  padding: 0px  0px 0px 32px !important;
+}
+
+.d-flex{
+  display: flex !important;
+  margin-bottom: 16px;
+}
+.col-6{
+  width:50% !important;
+}
+
+.share{
+  text-align: right;
+}
+.dropbtn {
+    /* background-color: #4CAF50; */
+    color: black;
+    padding: 6px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    /* width: 80px; */
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:#ccc;
+  }
+  
+
+
+#editor_div
+{
+ /* width:500px;
+ margin-left:240px; */
+ display: block;
+ 
+}
+
+#editor_div button[type="button"]
+{
+ width:500px;
+ margin-top:10px;
+ height:50px;
+ background-color:#585858;
+ border:none;
+ border-bottom:7px solid #424242;
+ color:white;
+ border-radius:3px;
+ font-size:16px;
+}
+
+
+
+.row{
+   display: flex;
+   border: 1px solid #ccc;
+}
+
+.close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin:0;
+    padding-left: 50px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #undo{
+    display: none;
+    float: right;
+  }
+
+  #undo button[type=button]
+  {
+    margin-top:10px;
+    height:50px;
+    background-color:#585858;
+    border:none;
+    border-bottom:7px solid #424242;
+    color:white;
+    border-radius:3px;
+    font-size:16px;
+    
+  }
+  button{
+    background-color:#00cc44 ;
+    color:black;
+    padding: 6px;
+    border: none;
+    border-radius: 50px 50px;
+    height: 30px;
+    width: 120px;
+    font-weight: bold;
+    
+    
+  }
+
+  button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+  }

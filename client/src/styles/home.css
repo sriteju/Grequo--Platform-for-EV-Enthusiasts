@@ -1,0 +1,121 @@
+.homecontainer {
+    border: 1px solid gray;
+    width: 60%;
+    height: auto;
+    top: 15%;
+    left: 30%;
+    max-width: 100%;
+    margin: 30px auto;
+}
+.post {
+    display: flex;
+    padding-left: 10px;
+}
+
+.avatar {
+    margin-left: 10px;
+}
+
+.post_info {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.post_info h5 {
+    margin-left: 15px;
+    cursor: pointer;
+    font-size: 1.0vw;
+    margin-top: 5px;
+}
+
+.post_info h5:hover {
+    text-decoration: underline;
+}
+
+.time_stamp small {
+    margin-left: 15px;
+    font-size: 1.0vw;
+}
+
+.post .time_stamp {
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+    right: 170px;
+    transform: translate(-100, -60);
+    margin-top: 30px;
+}
+
+.time_stamp small:hover {
+    text-decoration: underline;
+    size: 20px;
+}
+
+small:hover {
+    text-decoration: underline;
+}
+
+.post_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.post_body .post_question {
+    display: flex;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.0vw
+}
+
+.post_body .post_question>p:hover {
+    text-decoration: underline;
+}
+
+.button {
+    margin-left: auto;
+    outline: none;
+    border: none;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 40px;
+}
+
+.post_body .post_image {
+    object-fit: cover;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.post_body .img {
+    margin-bottom: 20%;
+}
+
+.share_icon {
+    float: right;
+    margin-top: 20px;
+}
+
+.button-1 {
+    border: none;
+    color: blue;
+    margin-left: 5px;
+    background-color: white;
+    position: relative;
+    bottom: 12px;
+}
+
+.material-icons {
+    margin-top: 5px;
+    position: relative;
+    top: 7px;
+}
